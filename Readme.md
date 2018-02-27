@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Alla Mytropan](https://up.htmlacademy.ru/htmlcss/20/user/225547).
-* Наставник: [Виктория Коваленко] (https://htmlacademy.ru/profile/id42638).
+* Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id42638).
 
 ---
 
