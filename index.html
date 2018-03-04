@@ -5,9 +5,189 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-  <h1>Blablabla</h1>>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+  <header class="main-header">
+    <figure class="logo">
+    <img src="img/index-logo.svg" width="" height="" alt="«GllacyShop»logo">
+    </figure>
 
+    <nav class="main-navigation">
+
+      <ul class="site-navigation">
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="conditions.html">Доставка и оплата</a></li>
+        <li><a href="company.html">О Компании</a></li>
+      </ul>
+
+      <ul class="user-navigation">
+
+      <!-- TODO add form-->
+
+        <li class="login-link">Вход</li>
+        <li class="basket basket-empty">Корзина</li>
+      </ul>
+
+    </nav>
+
+    <div class="timetable">
+      <p class="time">С 10 до 20, ежедневно</p>
+      <p class="phone-number">8 812 450-25-25</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="visually-hidden">Gllacy Shop</h1>
+
+    <div class="carousel">
+
+      <!-- TODO add carousel-->
+
+    </div>
+
+    <section class="promotion">
+      <div class="promo-1">
+        <h2>Малинка даром!</h2>
+        <p>При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ
+        банку малинового варенья бесплатно.</p>
+        <a class="botton" href="catalog.html">Хочу варенье!</a>
+      </div>
+      <div class="promo-2">
+        <h2>Шоколадки даром!</h2>
+        <p>При покупке 2 кг любого пломбира, добавим в ваш заказ
+          упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+        <a class="botton" href="catalog.html">Хочу шоколадки!</a>
+      </div>
+    </section>
+
+    <section class="bestsellers">
+      <h2 class="visually-hidden">Хиты продаж</h2>
+
+      <ul class="bestsellers-list">
+        <li class="bestseller-item">
+          <a href="catalog.html">
+            <img src="http://placehold.it/150x100" alt="Сливочное мороженное">
+          </a>
+          <span class="price">310 ₽</span>
+          <span class="weight">кг</span>
+          <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+        </li>
+        <li class="bestseller-item">
+          <a href="catalog.html">
+            <img src="http://placehold.it/150x100" alt="Сливочное-кофейное мороженное">
+          </a>
+          <span class="price">380 ₽</span>
+          <span class="weight">кг</span>
+          <p>Сливочно-кофейное с кусочками шоколада</p>
+        </li>
+        <li class="bestseller-item">
+          <a href="catalog.html">
+            <img src="http://placehold.it/150x100" alt="Сливочное-клубничное мороженное">
+          </a>
+          <span class="price">355 ₽</span>
+          <span class="weight">кг</span>
+          <p>Сливочно-клубничное с кусочками белого шоколада</p>
+        </li>
+        <li class="bestseller-item">
+          <a href="catalog.html">
+            <img src="http://placehold.it/150x100" alt="Сливочное крем-брюле">
+          </a>
+          <span class="price">415 ₽</span>
+          <span class="weight">кг</span>
+          <p>Сливочное крем-брюле с карамельной подливкой</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about-us">
+      <h3>Магазин Глэйси - это онлайн- и офлайн-магазин по продаже мороженного собственного
+      производства на развес</h3>
+      <ul class="about-us-list">
+      <li class="about-us-item">
+        <p>Все наше мороженное изготавливается на собственном производстве, с использованием
+      современного оборудования и проверенных временем технологий.</p>
+      </li>
+        <li class="about-us-item">
+          <p>Для приготовления мороженного используются настоящие сливки и молоко высочайшего
+      качества. Все дополнительные ингридиенты и добавки произведены из натурального
+      экологически чистого сырья.</p>
+        </li>
+        <li class="about-us-item">
+          <p>Закупка ингридиентов производится только у проверенных фермерский хозяйств и
+      компаний, с которыми нас связывает долговременное сотрудничество.</p>
+        </li>
+        <li class="about-us-item">
+          <p>Доставка нашего мороженного до заказчиков осуществляется в специальном термопаке,
+      который не дает мороженному растаять в пути и позволяет сохранить превосходный вкус.</p>
+        </li>
+      </ul>
+    </section>
+
+    <article class="blog">
+      <h2 class="visually-hidden">Наш блог</h2>
+      <p>Новое в нашем блоге</p>
+      <a href="blog.html">
+        <b>10 способов сервировки фруктовых щербетов к столу</b>
+      </a>
+    </article>
+
+    <section class="subscribe">
+      <h2 class="visually-hidden">Подписка</h2>
+      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в кусре всего самого
+      вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной
+      ерунды. Честно =)</p>
+
+      <!-- TODO add form-->
+
+    </section>
+
+    <div class="map">
+      <img src="http://placehold.it/150x100" width="" height="" alt="map">
+    </div>
+
+    <section class="contacts">
+      <h2 class="visually-hidden">Контакты</h2>
+      <p>
+      Адрес главного офиса<br>
+      и офлайн-магазина:<br>
+      <b>ул. Большая Конюшенная<br>
+      19/8, Санкт-Петербург</b>
+      </p>
+      <p>
+      Для заказов по телефону:<br>
+      <b>8 812 450-25-25</b><br>
+      (с 10 до 20 ежедневно)
+      </p>
+
+      <!-- TODO add form-->
+
+    </section>
+  </main>
+
+  <footer class="main-footer">
+
+    <div class="footer-social">
+      <ul>
+        <li><a class="social-button" href="#">Twitter</a></li>
+        <li><a class="social-button" href="#">Instagram</a></li>
+        <li><a class="social-button" href="#">Facebook</a></li>
+        <li><a class="social-button" href="#">Вконтакте</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-about-us">
+      <ul>
+        <li><a class="about-us" href="suppliers.html">Для поставщиков</a></li>
+        <li><a class="about-us" href="manufacturing.html">О производстве</a></li>
+        <li><a class="about-us" href="documents.html">Наши документы</a></li>
+        <li><a class="about-us" href="standards">Экологические стандарты</a></li>
+      </ul>
+    </div>
+
+    <p class="footer-copyright">
+      <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy.ru</a>
+      Сделано в HTML Academy © 2017
+    </p>
+
+  </footer>
   </body>
 </html>
