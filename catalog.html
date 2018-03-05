@@ -1,53 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Глейси</title>
 </head>
 <body>
+<!-- header -->
 <header class="main-header">
-
   <nav class="main-navigation">
     <a class="main-header-logo" href="index.html">
       <img src="img/index-logo.svg" width="" height="" alt="«GllacyShop»logo">
     </a>
-
     <ul class="site-navigation">
       <li><a href="catalog.html">Каталог</a></li>
       <li><a href="conditions.html">Доставка и оплата</a></li>
       <li><a href="company.html">О Компании</a></li>
     </ul>
-
     <ul class="user-navigation">
-
-      <!-- TODO add form-->
-
-      <li class="login-link">Вход</li>
-      <li class="basket basket-full">Корзина</li>
+      <!-- TODO: add form-->
+      <li class="login-link">
+        <a class="login" href="login.html" >
+          Вход
+        </a>
+      </li>
+      <li class="basket basket-full">
+        <a class="basket" href="basket.html">
+          Корзина
+        </a>
+      </li>
     </ul>
   </nav>
-
   <div class="timetable">
     <p class="time">С 10 до 20, ежедневно</p>
-    <p class="phone-number">8 812 450-25-25</p>
+    <p class="phone-number">
+      <a href="tel: +88124502525">8 812 450-25-25</a>
+    </p>
   </div>
 </header>
+<!-- /header -->
 
+<!-- main -->
 <main class="container">
 
+  <!-- breadcrumbs -->
   <ul class="breadcrumbs">
     <li><a href="index.html">Главная</a></li>
     <li><a href="catalog.html">Каталог</a></li>
     <li class="breadcrumbs-current">Сливочное</li>
   </ul>
+  <!-- /breadcrumbs -->
 
   <h1 class="page-title">Сливочное мороженное</h1>
 
+  <!-- Фильтры товаров -->
   <section class="filters">
     <h2 class="visually-hidden">Фильтр товаров</h2>
-    <!-- TODO add form-->
+    <!-- TODO: add form-->
   </section>
+  <!-- /Фильтры товаров -->
 
+  <!-- Каталог -->
   <section class="catalog">
     <h2 class="visually-hidden">Виды сливочного мороженного</h2>
 
@@ -56,16 +68,16 @@
       <li class="catalog-item">
         <a href="catalog-item.html">
           <img src="img/product-1.jpg" width="" height="" alt="Сливочное мороженное">
-        </a>
         <span class="price">310 ₽</span>
         <span class="weight">кг</span>
-        <a href="catalog-item.html">
         <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
         </a>
       </li>
 
     </ul>
+    <!-- /Каталог -->
 
+    <!-- Страницы -->
     <ul class="pagination-list">
       <li class="pagination-item"><a>1</a></li>
       <li class="pagination-item"><a href="#">2</a></li>
@@ -73,10 +85,12 @@
       <li class="pagination-item"><a href="#">4</a></li>
       <li class="pagination-item"><a href="#">5</a></li>
     </ul>
-
+    <!-- /Страницы -->
   </section>
 </main>
+<!-- /main -->
 
+<!-- footer -->
 <footer class="main-footer">
   <div class="footer-social">
     <ul>
@@ -86,20 +100,21 @@
       <li><a class="social-button" href="#">Вконтакте</a></li>
     </ul>
   </div>
-
-  <div class="footer-about-us">
+  <div class="footer-production">
     <ul>
-      <li><a class="about-us" href="suppliers.html">Для поставщиков</a></li>
-      <li><a class="about-us" href="manufacturing.html">О производстве</a></li>
-      <li><a class="about-us" href="documents.html">Наши документы</a></li>
-      <li><a class="about-us" href="standards">Экологические стандарты</a></li>
+      <li><a class="production" href="suppliers.html">Для поставщиков</a></li>
+      <li><a class="production" href="manufacturing.html">О производстве</a></li>
+      <li><a class="production" href="documents.html">Наши документы</a></li>
+      <li><a class="production" href="standards">Экологические стандарты</a></li>
     </ul>
   </div>
-
   <p class="footer-copyright">
-    <a class="button" href="https://htmlacademy.ru">HTML Academy.ru</a>
+    <a class="logo" href="https://htmlacademy.ru/intensive/htmlcss">
+      <img src="" width="" height="" alt="HTML Academy">
+    </a><br>
     Сделано в HTML Academy © 2017
   </p>
 </footer>
+<!-- /footer -->
 </body>
 </html>

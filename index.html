@@ -5,45 +5,51 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-
+  <!-- header -->
   <header class="main-header">
     <figure class="logo">
     <img src="img/index-logo.svg" width="" height="" alt="«GllacyShop»logo">
     </figure>
-
     <nav class="main-navigation">
-
       <ul class="site-navigation">
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="conditions.html">Доставка и оплата</a></li>
         <li><a href="company.html">О Компании</a></li>
       </ul>
-
       <ul class="user-navigation">
-
-      <!-- TODO add form-->
-
-        <li class="login-link">Вход</li>
-        <li class="basket basket-empty">Корзина</li>
+      <!-- TODO: add form-->
+        <li class="login-link">
+          <a class="login" href="login.html" >
+          Вход
+          </a>
+        </li>
+        <li class="basket basket-empty">
+          <a class="basket" href="basket.html">
+          Корзина
+          </a>
+        </li>
       </ul>
-
     </nav>
-
     <div class="timetable">
       <p class="time">С 10 до 20, ежедневно</p>
-      <p class="phone-number">8 812 450-25-25</p>
+      <p class="phone-number">
+        <a href="tel: +88124502525">8 812 450-25-25</a>
+      </p>
     </div>
   </header>
+  <!-- /header -->
 
+  <!-- main -->
   <main class="container">
     <h1 class="visually-hidden">Gllacy Shop</h1>
 
+    <!-- carousel -->
     <div class="carousel">
-
-      <!-- TODO add carousel-->
-
+      <!-- TODO: add carousel-->
     </div>
+    <!-- /carousel -->
 
+    <!-- Акции -->
     <section class="promotion">
       <div class="promo-1">
         <h2>Малинка даром!</h2>
@@ -58,10 +64,11 @@
         <a class="botton" href="catalog.html">Хочу шоколадки!</a>
       </div>
     </section>
+    <!-- /Акции -->
 
+    <!-- Хиты продаж -->
     <section class="bestsellers">
       <h2 class="visually-hidden">Хиты продаж</h2>
-
       <ul class="bestsellers-list">
         <li class="bestseller-item">
           <a href="catalog.html">
@@ -97,31 +104,35 @@
         </li>
       </ul>
     </section>
+    <!-- /Хиты продаж -->
 
-    <section class="about-us">
+    <!-- Преимущества -->
+    <section class="features">
       <h3>Магазин Глэйси - это онлайн- и офлайн-магазин по продаже мороженного собственного
       производства на развес</h3>
-      <ul class="about-us-list">
-      <li class="about-us-item">
+      <ul class="features-list">
+      <li class="features-item">
         <p>Все наше мороженное изготавливается на собственном производстве, с использованием
       современного оборудования и проверенных временем технологий.</p>
       </li>
-        <li class="about-us-item">
+        <li class="features-item">
           <p>Для приготовления мороженного используются настоящие сливки и молоко высочайшего
       качества. Все дополнительные ингридиенты и добавки произведены из натурального
       экологически чистого сырья.</p>
         </li>
-        <li class="about-us-item">
+        <li class="features-item">
           <p>Закупка ингридиентов производится только у проверенных фермерский хозяйств и
       компаний, с которыми нас связывает долговременное сотрудничество.</p>
         </li>
-        <li class="about-us-item">
+        <li class="features-item">
           <p>Доставка нашего мороженного до заказчиков осуществляется в специальном термопаке,
       который не дает мороженному растаять в пути и позволяет сохранить превосходный вкус.</p>
         </li>
       </ul>
     </section>
+    <!-- /Преимущества -->
 
+    <!-- Блог -->
     <article class="blog">
       <h2 class="visually-hidden">Наш блог</h2>
       <p>Новое в нашем блоге</p>
@@ -129,21 +140,25 @@
         <b>10 способов сервировки фруктовых щербетов к столу</b>
       </a>
     </article>
+    <!-- /Блог -->
 
+    <!-- Подписка -->
     <section class="subscribe">
       <h2 class="visually-hidden">Подписка</h2>
       <p>Подпишитесь на нашу сладкую рассылку и будете всегда в кусре всего самого
       вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной
       ерунды. Честно =)</p>
-
-      <!-- TODO add form-->
-
+      <!-- TODO: add form-->
     </section>
+    <!-- /Подписка -->
 
+    <!-- Карта -->
     <div class="map">
       <img src="http://placehold.it/150x100" width="" height="" alt="map">
     </div>
+    <!-- /Карта -->
 
+    <!-- Контакты -->
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
       <p>
@@ -154,17 +169,19 @@
       </p>
       <p>
       Для заказов по телефону:<br>
-      <b>8 812 450-25-25</b><br>
+      <b>
+        <a href="tel: +88124502525">8 812 450-25-25</a>
+      </b><br>
       (с 10 до 20 ежедневно)
       </p>
-
-      <!-- TODO add form-->
-
+      <!-- TODO: add form-->
     </section>
+    <!-- /Контакты -->
   </main>
+  <!-- /main -->
 
+  <!-- footer -->
   <footer class="main-footer">
-
     <div class="footer-social">
       <ul>
         <li><a class="social-button" href="#">Twitter</a></li>
@@ -173,21 +190,21 @@
         <li><a class="social-button" href="#">Вконтакте</a></li>
       </ul>
     </div>
-
-    <div class="footer-about-us">
+    <div class="footer-production">
       <ul>
-        <li><a class="about-us" href="suppliers.html">Для поставщиков</a></li>
-        <li><a class="about-us" href="manufacturing.html">О производстве</a></li>
-        <li><a class="about-us" href="documents.html">Наши документы</a></li>
-        <li><a class="about-us" href="standards">Экологические стандарты</a></li>
+        <li><a class="production" href="suppliers.html">Для поставщиков</a></li>
+        <li><a class="production" href="manufacturing.html">О производстве</a></li>
+        <li><a class="production" href="documents.html">Наши документы</a></li>
+        <li><a class="production" href="standards">Экологические стандарты</a></li>
       </ul>
     </div>
-
     <p class="footer-copyright">
-      <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy.ru</a>
+      <a class="logo" href="https://htmlacademy.ru/intensive/htmlcss">
+        <img src="" width="" height="" alt="HTML Academy">
+      </a><br>
       Сделано в HTML Academy © 2017
     </p>
-
   </footer>
+  <!-- /footer -->
   </body>
 </html>
