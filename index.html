@@ -12,7 +12,16 @@
     </figure>
     <nav class="main-navigation">
       <ul class="site-navigation">
-        <li><a href="catalog.html">Каталог</a></li>
+        <li>
+          <a href="creamy.html">Каталог</a>
+          <ul class="sub-menu">
+            <li><a href="new.html">Новинки</a></li>
+            <li><a href="creamy.html">Сливочное</a></li>
+            <li><a href="sherbets.html">Щербеты</a></li>
+            <li><a href="popsicles.html">Фруктовый лед</a></li>
+            <li><a href="melorin.html">Мелорин</a></li>
+          </ul>
+        </li>
         <li><a href="conditions.html">Доставка и оплата</a></li>
         <li><a href="company.html">О Компании</a></li>
       </ul>
@@ -43,11 +52,11 @@
   <main class="container">
     <h1 class="visually-hidden">Gllacy Shop</h1>
 
-    <!-- carousel -->
-    <div class="carousel">
-      <!-- TODO: add carousel-->
+    <!-- slider -->
+    <div class="slider">
+
     </div>
-    <!-- /carousel -->
+    <!-- /slider -->
 
     <!-- Акции -->
     <section class="promotion">
@@ -55,13 +64,13 @@
         <h2>Малинка даром!</h2>
         <p>При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ
         банку малинового варенья бесплатно.</p>
-        <a class="botton" href="catalog.html">Хочу варенье!</a>
+        <a class="botton" href="creamy.html">Хочу варенье!</a>
       </div>
       <div class="promo-2">
         <h2>Шоколадки даром!</h2>
         <p>При покупке 2 кг любого пломбира, добавим в ваш заказ
           упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-        <a class="botton" href="catalog.html">Хочу шоколадки!</a>
+        <a class="botton" href="creamy.html">Хочу шоколадки!</a>
       </div>
     </section>
     <!-- /Акции -->
@@ -71,7 +80,7 @@
       <h2 class="visually-hidden">Хиты продаж</h2>
       <ul class="bestsellers-list">
         <li class="bestseller-item">
-          <a href="catalog.html">
+          <a href="creamy.html">
             <img src="http://placehold.it/150x100" alt="Сливочно-апельсиновое">
           <span class="price">310 ₽</span>
           <span class="weight">кг</span>
@@ -79,7 +88,7 @@
           </a>
         </li>
         <li class="bestseller-item">
-          <a href="catalog.html">
+          <a href="creamy.html">
             <img src="http://placehold.it/150x100" alt="Сливочное-кофейное">
           <span class="price">380 ₽</span>
           <span class="weight">кг</span>
@@ -87,7 +96,7 @@
           </a>
         </li>
         <li class="bestseller-item">
-          <a href="catalog.html">
+          <a href="creamy.html">
             <img src="http://placehold.it/150x100" alt="Сливочное-клубничное">
           <span class="price">355 ₽</span>
           <span class="weight">кг</span>
@@ -95,7 +104,7 @@
           </a>
         </li>
         <li class="bestseller-item">
-          <a href="catalog.html">
+          <a href="creamy.html">
             <img src="http://placehold.it/150x100" alt="Сливочное крем-брюле">
           <span class="price">415 ₽</span>
           <span class="weight">кг</span>
@@ -145,7 +154,7 @@
     <!-- Подписка -->
     <section class="subscribe">
       <h2 class="visually-hidden">Подписка</h2>
-      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в кусре всего самого
+      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого
       вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной
       ерунды. Честно =)</p>
       <!-- TODO: add form-->
@@ -161,19 +170,13 @@
     <!-- Контакты -->
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <p>
-      Адрес главного офиса<br>
-      и офлайн-магазина:<br>
-      <b>ул. Большая Конюшенная<br>
-      19/8, Санкт-Петербург</b>
-      </p>
-      <p>
-      Для заказов по телефону:<br>
-      <b>
-        <a href="tel:+88124502525">8 812 450-25-25</a>
-      </b><br>
-      (с 10 до 20 ежедневно)
-      </p>
+      <p>Адрес главного офиса</p>
+      <p>и офлайн-магазина:</p>
+      <p><b>ул. Большая Конюшенная</b></p>
+      <p><b>19/8, Санкт-Петербург</b></p>
+      <p>Для заказов по телефону:</p>
+      <p><b><a href="tel:+88124502525">8 812 450-25-25</a></b></p>
+      <p>(с 10 до 20 ежедневно)</p>
       <!-- TODO: add form-->
     </section>
     <!-- /Контакты -->
@@ -207,5 +210,14 @@
     </p>
   </footer>
   <!-- /footer -->
+
+  <!-- Обратная связь -->
+  <section class="modal modal-feedback">
+    <h2>Мы обязательно вам ответим!</h2>
+    <!-- Здесь будет форма -->
+    <span class="modal-close">x</span>
+  </section>
+  <!-- /Обратная связь -->
+
   </body>
 </html>
