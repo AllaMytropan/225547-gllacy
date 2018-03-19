@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin,cyrillic"
+          rel="stylesheet" >
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   <!-- header -->
@@ -30,15 +34,18 @@
         <li class="search-link">
           <a class="search" href="#" >Поиск</a>
           <!-- Форма поиска -->
+          <div class="search-wrapper">
           <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
             <label class="visually-hidden" for="search">Поиск</label>
             <input class="search-icon" id="search" type="search" name="search" placeholder="Что ищем?">
           </form>
+          </div>
           <!-- /Форма поиска -->
         </li>
         <li class="login-link">
           <a class="login" href="login.html" >Вход</a>
           <!-- Форма входа -->
+          <div class="login-wrapper">
           <form class="login-form" method="get" action="https://echo.htmlacademy.ru">
             <label class="visually-hidden" for="email">Электронная почта</label>
             <input class="login-email" id="email" type="email" name="email"
@@ -52,6 +59,7 @@
             </p>
           </form>
           <button class="button" type="submit">Войти</button>
+          </div>
           <!-- /Форма входа -->
         </li>
         <li class="basket basket-empty">
@@ -113,8 +121,8 @@
       <ul class="bestsellers-list">
         <li class="bestseller-item">
             <img src="img/hit-1.jpg" width="267" height="267" alt="Сливочно-апельсиновое">
-          <span class="price">310 ₽</span>
-          <span class="weight">кг</span>
+          <span class="price">310₽</span>
+          <span class="weight">/кг</span>
           <a href="creamy.html">
           <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
           </a>
@@ -122,8 +130,8 @@
         </li>
         <li class="bestseller-item">
             <img src="img/hit-2.jpg" width="267" height="267"  alt="Сливочно-кофейное">
-          <span class="price">380 ₽</span>
-          <span class="weight">кг</span>
+          <span class="price">380₽</span>
+          <span class="weight">/кг</span>
           <a href="creamy.html">
             <p>Сливочно-кофейное с кусочками шоколада</p>
           </a>
@@ -131,8 +139,8 @@
         </li>
         <li class="bestseller-item">
             <img src="img/hit-3.jpg" width="267" height="267" alt="Сливочно-клубничное">
-          <span class="price">355 ₽</span>
-          <span class="weight">кг</span>
+          <span class="price">355₽</span>
+          <span class="weight">/кг</span>
           <a href="creamy.html">
           <p>Сливочно-клубничное с кусочками белого шоколада</p>
           </a>
@@ -140,8 +148,8 @@
         </li>
         <li class="bestseller-item">
             <img src="img/hit-4.jpg" width="267" height="267" alt="Сливочное крем-брюле">
-          <span class="price">415 ₽</span>
-          <span class="weight">кг</span>
+          <span class="price">415₽</span>
+          <span class="weight">/кг</span>
           <a href="creamy.html">
           <p>Сливочное крем-брюле с карамельной подливкой</p>
           </a>
@@ -265,8 +273,8 @@
         </p>
         <p>
           <label class="visually-hidden" for="user-message">Напишите что-нибудь...</label>
-          <textarea id="user-message" name="feedback-message" rows="5" placeholder="Напишите что-нибудь...">
-          </textarea>
+          <textarea id="user-message" name="feedback-message" rows="5"
+                    placeholder="Напишите что-нибудь..."></textarea>
         </p>
         <button type="submit" class="button">Отправить</button>
       </form>

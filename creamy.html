@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Глейси</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=latin,cyrillic"
+        rel="stylesheet" >
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <!-- header -->
@@ -30,14 +34,17 @@
       <li class="search-link">
         <a class="search" href="#" >Поиск</a>
         <!-- Форма поиска -->
+        <div class="search-wrapper">
         <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
           <input type="search" name="search" placeholder="Что ищем?">
         </form>
+        </div>
         <!-- /Форма поиска -->
       </li>
       <li class="login-link">
         <a class="login" href="#" >Вход</a>
         <!-- Форма входа -->
+        <div class="login-wrapper">
         <form class="login-form" method="get" action="https://echo.htmlacademy.ru">
           <label class="visually-hidden" for="email">Электронная почта</label>
           <input class="login-email" id="email" type="email" name="email"
@@ -51,6 +58,7 @@
           </p>
         </form>
         <button class="button" type="submit">Войти</button>
+        </div>
         <!-- /Форма входа -->
       </li>
       <!-- Корзина -->
@@ -99,7 +107,7 @@
   <div class="timetable">
     <p class="time">С 10 до 20, ежедневно</p>
     <p class="phone-number">
-      <a href="tel:+88124502525">8 812 450-25-25</a>
+      <a class="phone" href="tel:+88124502525">8 812 450-25-25</a>
     </p>
   </div>
 </header>
